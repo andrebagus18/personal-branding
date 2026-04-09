@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Brand | Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <style type="text/tailwindcss">
+      /* Custom CSS Tailwind */
+      .bento-item {
+        transition: all 0.3s ease;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+      .bento-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+        border-color: #f97316;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <div class="max-w-6xl mx-auto px-4 py-12">
+      <!-- Header Section -->
+      <header class="mb-12 text-center md:text-left">
+        <h1 class="text-4xl font-black tracking-tighter">
+          HI, I'M <span class="text-orange-500">DAVID.</span>
+        </h1>
+        <p class="text-gray-500 mt-2">Digital Designer & Creative Developer</p>
+      </header>
+
+      <!-- Bento Grid Layout -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-3 gap-4 h-auto md:h-[600px]"
+      >
+        <div
+          class="md:col-span-2 md:row-span-2 bg-white p-8 rounded-3xl bento-item flex flex-col justify-between overflow-hidden relative group"
+        >
+          <div class="flex flex-col gap-6">
+            <div
+              class="w-full h-48 mb-4 rounded-2xl overflow-hidden border-4 border-gray-50 shadow-sm transition-transform duration-500 group-hover:scale-105"
+            >
+              <img
+                src="img/Mobile wireframe.png"
+                alt="mobile wireframe"
+                class="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 transition-all duration-500"
+              />
+            </div>
+          </div>
+          <div>
+            <h2
+              class="text-2xl md:text-3xl font-bold leading-[1.1] tracking-tight text-zinc-900"
+            >
+              Membangun pengalaman digital yang
+              <span
+                class="text-orange-500 underline decoration-orange-200 underline-offset-8"
+                >berkesan</span
+              >
+              melalui kode & desain.
+            </h2>
+            <p class="text-gray-500 text-sm leading-relaxed max-w-sm">
+              Berdasarkan di Indonesia, saya membantu brand global untuk tampil
+              lebih menonjol dengan website berbasis Tailwind CSS.
+            </p>
+          </div>
+        </div>
+        <div
+          class="md:col-span-2 bg-orange-500 rounded-3xl bento-item overflow-hidden relative group"
+        >
+          <div
+            class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all"
+          >
+            <img
+              class="w-full h-full object-cover object-center"
+              src="img/Tampilan portofolio proyek digital.png"
+              alt="proyek digital"
+            />
+          </div>
+          <div
+            class="absolute bottom-2 left-6 text-black/90 text-outline-orange-500 bg-white/80 backdrop-blur-sm rounded-lg px-4 py-2"
+          >
+            <p class="text-sm font-medium">Latest Work</p>
+            <h3 class="text-xl font-bold">Mobile App Design</h3>
+          </div>
+        </div>
+        <div
+          class="md:col-span-2 bg-zinc-900 rounded-3xl bento-item p-6 flex flex-wrap gap-2 items-end justify-evenly bg-[url('img/image.png')] bg-cover bg-center"
+        >
+          <span
+            class="px-3 py-1 inset-0 bg-black/70 text-xs text-white rounded-full"
+            >Tailwind</span
+          >
+          <span
+            class="px-3 py-1 inset-0 bg-black/70 text-xs text-white rounded-full"
+            >VS Code</span
+          >
+          <span
+            class="px-3 py-1 inset-0 bg-black/70 text-xs text-white rounded-full"
+            >JS</span
+          >
+        </div>
+        <div
+          class="md:col-span-2 bg-white rounded-3xl bento-item p-8 flex justify-between items-center"
+        >
+          <div>
+            <h3 class="text-xl font-bold">Tersedia untuk proyek baru</h3>
+            <p class="text-sm text-gray-500">
+              Estimasi pengerjaan 3-5 hari kerja.
+            </p>
+          </div>
+          <button
+            class="bg-orange-500 text-white px-6 py-3 rounded-2xl font-bold hover:bg-orange-600 transition-colors"
+          >
+            Hire Me
+          </button>
+        </div>
+        <div
+          class="md:col-span-1 bg-white rounded-3xl bento-item p-6 flex flex-col justify-center items-center text-center border-dashed border-2"
+        >
+          <span class="text-3xl font-black text-orange-500">5+</span>
+          <span class="text-xs uppercase font-bold text-gray-400"
+            >Years Exp</span
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="bg-white text-zinc-900 py-20 border-t border-zinc-100">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-end gap-10">
+          <div class="max-w-md">
+            <h2 class="text-5xl font-black tracking-tighter mb-6 leading-none">
+              AYO BUAT SESUATU <span class="text-orange-500">YANG KEREN.</span>
+            </h2>
+            <a
+              href="mailto:hello@yoursite.com"
+              class="text-2xl font-bold underline hover:text-orange-500 transition decoration-2 underline-offset-8"
+              >hello@yoursite.com</a
+            >
+          </div>
+          <nav
+            aria-label="Social Media"
+            class="flex flex-wrap gap-4 font-bold text-sm items-end uppercase tracking-widest h-48"
+          >
+            <a
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="0"
+              href="#"
+              class="hover:line-through transition h-full flex flex-col justify-between items-center"
+            >
+              <img
+                class="w-30 h-20 relative top-9"
+                src="img/pngwing.com.png"
+                alt="Instagram"
+              />
+              <p class="items-end">Instagram</p></a
+            >
+            <a
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="100"
+              href="#"
+              class="hover:line-through transition h-full flex flex-col justify-between items-center"
+            >
+              <img
+                class="w-14 h-14 relative top-12"
+                src="img/pngwing.com (1).png"
+                alt="Whatsapp"
+              />
+              <p class="items-end">Whatsapp</p></a
+            >
+            <a
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="200"
+              href="#"
+              class="hover:line-through transition h-full flex flex-col justify-between items-center"
+              ><img
+                class="w-28 h-26 relative top-6"
+                src="img/pngwing.com (2).png "
+                alt="GitHub"
+              />
+              <p class="items-end">GitHub</p></a
+            >
+            <a
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="400"
+              href="#"
+              class="hover:line-through transition h-full flex flex-col justify-between items-center"
+              ><img
+                class="w-24 h-12 relative top-14"
+                src="img/linkedin-logo.png"
+                alt="LinkedIn"
+              />
+              <p class="items-center">LinkedIn</p></a
+            >
+          </nav>
+        </div>
+        <div
+          class="mt-20 pt-8 border-t border-zinc-100 flex justify-between text-[10px] uppercase font-bold text-zinc-400 tracking-[0.2em]"
+        >
+          <span>© 2026 Crafted by David Truly</span>
+          <span>Available for Freelance</span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // durasi animasi (ms)
+        offset: 100, // jarak trigger
+      });
+    </script>
+  </body>
+</html>
